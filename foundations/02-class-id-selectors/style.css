@@ -1,0 +1,21 @@
+
+p {
+    background-color: rgb(255, 194, 204);
+    font-family: Verdana, sans-serif;
+}
+
+#bluetext {
+    color: rgb(0, 0, 255);
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+div {
+    font-size: 32px;
+    background-color: rgb(144, 238, 144);
+    font-weight: bold;
+}
+
+.odds{
+    font-size: 24px;
+}
