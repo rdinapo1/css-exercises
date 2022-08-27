@@ -3,15 +3,19 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
-}
-
-.para {
+.para,
+.confirm.button,
+.button.cancel {
   font-size: 22px;
 }
 
-.confirm {
+.text.child,
+.small-para {
+  color: red;
+  font-size: 14px;
+}
+
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
@@ -21,11 +25,6 @@
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
-
-.child {
-  color: red;
-  font-size: 14px;
 }
 
 div.text {

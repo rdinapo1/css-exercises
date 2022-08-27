@@ -13,8 +13,17 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   padding: 8px;
+=======
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  margin: 0px;
+  gap: 16px;
+
+>>>>>>> refs/remotes/origin/main
 }
 
 .profile-image {
@@ -49,9 +58,20 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+<<<<<<< HEAD
   gap: 16px;
   margin: 0;
   padding: 0;
+=======
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 0;
+  padding:0;
+}
+
+.notifications {
+  margin-left: auto;
+>>>>>>> refs/remotes/origin/main
 }
 
 .left, .right {
